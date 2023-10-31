@@ -1,0 +1,204 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+h1{
+   border-top: 30%;
+   margin-top: 7%;
+   margin-bottom: 20px;
+   background-image: linear-gradient(45deg, #00ff00, #0000ff,       #ff00ff, #ff9900);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   text-align: center;
+}
+
+.fix {
+  background-color: grey;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  border: 15px solid green;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+h3 {
+  margin-top: 40px;
+  text-align: center;
+  font-style: bold;
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+p{
+  font-family: Times New Roman;  
+  color: red;
+  text-align: center;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+}
+
+button{
+  color: darkblue;
+  border-radius: 8px;
+}
+
+.important {
+  background-color: lightgrey;
+}
+
+#source{
+  text-align: center;
+}
+.type-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#type-left {
+  width: 50%
+ 
+}
+
+#type-right {
+  width: 50%;
+  
+}
+#header-button {
+  text-align: center;
+  font-size: medium;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+  
+}
+
+#header-img {
+  max-width: 300px;
+  height: 200px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-item:nth-of-type(1){
+ flex:1;
+}
+
+.header-item:nth-of-type(2){
+  flex:2;
+}
+
+a:link {
+  color: purple;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color:red;
+}
+
+a:active{
+  color: green;
+}
+
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px; 
+  background-color: #333; 
+}
+.navbar li {
+  float: left;
+  margin: 10px; 
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: blue; 
+  text-align: center;
+  padding: 10px 20px; 
+}
+
+
+.navbar li a:hover {
+  background-color: purple; 
+  color: blue; 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+#theme-button {
+ text-align: center;
+ text-decoration: darkblue;
+ color: blue;
+ border-radius: 0px;
+ font-weight: bold;
+ height: 30px;
+ width: 140px;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20 px;
+  width: 100;
+  padding-bottom: 50px;
+}
+
+.Donate to help {
+  width: 55;
+  padding-right: 10 px;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
